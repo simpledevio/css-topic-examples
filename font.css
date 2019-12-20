@@ -1,0 +1,13 @@
+/* font.css */
+
+#longhand {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 2;
+  font-family: Arial, sans-serif;
+}
+
+#shorthand {
+  font: italic bold 20px/2 Arial, sans-serif;
+}

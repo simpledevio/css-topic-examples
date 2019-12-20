@@ -1,0 +1,5 @@
+/* multiple-selector.css */
+
+h2, p, div {
+  color: red;
+}
