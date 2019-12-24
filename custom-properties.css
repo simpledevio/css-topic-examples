@@ -1,0 +1,13 @@
+/* custom-properties.css */
+
+:root {
+  --main-color: red;
+}
+
+h2 {
+  background-color: var(--main-color);
+}
+
+p {
+  color: var(--main-color);
+}
