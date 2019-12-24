@@ -1,0 +1,8 @@
+/* media-queries.css */
+
+@media screen and (min-width: 576px) {
+  p {
+    /* add properties here */
+    color: red;
+  }
+}
