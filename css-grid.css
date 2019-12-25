@@ -1,0 +1,19 @@
+/* css-grid.css */
+
+.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  /* grid-gap: 20px; */
+  grid-auto-rows: minmax(100px, auto);
+  border: solid 1px black;
+}
+
+div:not(.container) {
+  border: dashed 1px red;
+  /* padding: 1em; */
+}
+
+p {
+  border: dashed 1px red;
+  padding: 1em;
+}

@@ -1,0 +1,50 @@
+/* flexbox-align.css */
+
+.flex-parent {
+  display: flex;
+  border: solid 1px black;
+  margin-top: 1em;
+  /* height: 200px; */
+  /* flex-direction: column; */
+}
+
+#align-items-center {
+  align-items: center;
+}
+
+#align-items-stretch {
+  align-items: stretch;
+}
+
+#align-items-flex-start {
+  align-items: flex-start;
+}
+
+#align-items-flex-end {
+  align-items: flex-end;
+}
+
+#align-items-baseline {
+  align-items: baseline;
+}
+
+div:not(.flex-parent) {
+  border: dashed 1px red;
+  flex: 1;
+}
+
+p {
+  margin: 16px;
+  flex: 1;
+  width: 100px;
+}
+
+#flex-test-1 {
+  /* flex: 2; */
+  font-size: 20px;
+}
+
+#flex-test {
+  /* flex: 2; */
+  /* font-size: 20px; */
+}

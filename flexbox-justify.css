@@ -1,0 +1,40 @@
+/* flexbox-justify.css */
+
+.flex-parent {
+  display: flex;
+  border: solid 1px black;
+  margin-top: 1em;
+  height: 200px;
+  /* flex-direction: column; */
+}
+
+#justify-content-center {
+  justify-content: center;
+}
+
+#justify-content-space-around {
+  justify-content: space-around;
+}
+
+#justify-content-space-between {
+  justify-content: space-between;
+}
+
+#justify-content-flex-start {
+  justify-content: flex-start;
+}
+
+#justify-content-flex-end {
+  justify-content: flex-end;
+}
+
+div:not(.flex-parent) {
+  border: dashed 1px red;
+  /* flex: 1; */
+  width: 20%;
+}
+
+#flex-test {
+  /* flex: 2; */
+  /* font-size: 20px; */
+}
