@@ -1,0 +1,5 @@
+/* child-selector.css */
+
+.class-1 > p {
+  color: red;
+}
